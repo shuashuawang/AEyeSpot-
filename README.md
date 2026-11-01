@@ -1,24 +1,60 @@
 **General Information**
-
 Assessment 2, AEyeSpot, a prototype for Gen AI image verification tool primarily designed for journalists. 
 
 Given my background as a journalism student and someone who is beginning to work within the industry, audiences value
 authenticity. Recently, AI has been dominating media landscapes and I'm consciously not in support of this.
 
-**Technologies Used**
-
+**Software Used**
 • Microsoft Visual Studio Code Version: 1.143.0
-• PIL 1.1.7
-• C2PA 
-• Tkinter 
+• Python 3 — Primary programming language
+
+**Library Dependencies**
+Standard libraries:
+- Tkinter
+- JSON
+Third-party libraries:(These must be installed separately)
+- Pillow
+- c2pa-python
+
+Install the third-party libraries using:
+python3 -m pip install Pillow c2pa-python
 
 **Features**
 list of ready features:
-• Meta data analysis of image
-• 
+• Uses Tkinter for file selection
+• Uses Pillow to identify image format 
+• EXIF metadata analysis
+• C2PA content credentials verification 
+• Verification results & warnings - displays results in the Python terminal
+• Reports missing metadata & C2PA validation issues 
+• Explains that missing metadata or Content Credentials does not establish an image's authenticity.
+
+**How to Run AEyeSpot**
+1. Download the project files from this GitHub repository.
+2. Ensure Python 3 and the required libraries are installed.
+3. Open the project folder in Visual Studio Code.
+4. Run the main Python file using:
+
+python3 AEyeSpotmain.py
+
+5. Select an image using the file-selection window.
+6. View the EXIF metadata and C2PA verification results in the Python terminal.
+
+A sample image, test.jpg, is provided for testing the prototype.
+
+**Project Limitations**
+AEyeSpot is a proof-of-concept verification tool and is currently unable to deliver reliable results to determine whether an image was generated using artificial intelligence. 
+
+EXIF metadata can be altered, removed or completely void. Similarly, C2PA content credentials are not guaranteed to exist within every image and may be lost during image editing/conversion.
+
+Hence, AEyeSpot should be used as a supplementary investigative tool, rather than a definitive assessment of authenticity.
 
 **Project Status**
-- In progress -
+- Prototype Complete -
+
+The core EXIF metadata analysis and C2PA verification features have been implemented, integrated and tested.
+The prototype demonstrates how beginner-level Python programming can be applied to a real-world challenge within journalism.
+
 
 
 
