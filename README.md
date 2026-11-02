@@ -42,6 +42,7 @@ python3 AEyeSpotmain.py
 
 A sample image, test.png, is provided for testing the prototype.
 A second sample of test.jpeg is also provided, of the same image to show a difference in results.
+BOTH IMAGES WERE CREATED BY GEN AI
 
 *Note* test.jpeg was converted using Pillow, running this image through AEyeSpot will allow users to see the limitations of EXIF metadata analysis & C2PA content credentials.
 
