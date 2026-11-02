@@ -40,7 +40,10 @@ python3 AEyeSpotmain.py
 5. Select an image using the file-selection window.
 6. View the EXIF metadata and C2PA verification results in the Python terminal.
 
-A sample image, test.jpg, is provided for testing the prototype.
+A sample image, test.png, is provided for testing the prototype.
+A second sample of test.jpeg is also provided, of the same image to show a difference in results.
+
+*Note* test.jpeg was converted using Pillow, running this image through AEyeSpot will allow users to see the limitations of EXIF metadata analysis & C2PA content credentials.
 
 **Project Limitations**
 AEyeSpot is a proof-of-concept verification tool and is currently unable to deliver reliable results to determine whether an image was generated using artificial intelligence. 
