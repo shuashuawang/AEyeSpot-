@@ -1,8 +1,8 @@
 **General Information**
-Assessment 2, AEyeSpot, a prototype for Gen AI image verification tool primarily designed for journalists. 
+Assessment 2, AEyeSpot, a image verification tool prototype, designed for helping journalists in investigating the origins of digital images. 
 
 Given my background as a journalism student and someone who is beginning to work within the industry, audiences value
-authenticity. Recently, AI has been dominating media landscapes and I'm consciously not in support of this.
+authenticity. Recently, AI has been dominating media landscapes and I am concerned about its potential harm to undermine the credibility of journalism, particularly visual, when Gen AI images are used without proper disclosure.
 
 **Software Used**
 • Microsoft Visual Studio Code Version: 1.143.0
